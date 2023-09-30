@@ -1,0 +1,23 @@
+/* Estilo base del texto */
+.rainbow-text {
+    font-family: 'TIMES NEW ROMAN', Times, serif;
+    font-size: 2em;
+    text-transform: uppercase; /* Opcional: convierte el texto en mayúsculas */
+}
+
+/* Animación de arcoíris */
+@keyframes rainbow {
+    5% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+
+/* Aplicar la animación al texto */
+.rainbow-text {
+    animation: rainbow 7s linear infinite;
+}
