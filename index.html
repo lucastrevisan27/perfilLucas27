@@ -1,72 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="smoke.css">
-    <link rel="icon" href="Imagen de WhatsApp 2023-09-09 a las 08.17.31.jpg"
-    width="50"
-    heigth="30"
-    />
+    <link rel="icon" href="Imagen de WhatsApp 2023-09-09 a las 08.17.31.jpg" width="50" height="30">
     <title>Mi Perfil</title>
     <link rel="stylesheet" type="text/css" href="perfil1.css">
 </head>
 <body>
     <section>
-        <video src="smoke.mp4" autoplay muted ></video>
+        <video src="smoke.mp4" autoplay muted></video>
         <h1>
             <span>L</span>
-            
             <span>U</span>
-
             <span>C</span>
-
             <span>A</span>
-
             <span>S</span>
-            
         </h1>
     </section>
-    <header>
-<nav>
-    <li>
-        <input type="text" id="search" placeholder="Buscar...">
-        <button id="searchButton">Buscar</button>
-    </li>
-    <nav>
-        <ul>
-            <li><a href="#Estudios" class="rainbow-link">Estudios</a></li>
-            <li><a href="#SobreMi" class="rainbow-link">Sobre Mí</a></li>
-            <li><a href="#contacto" class="rainbow-link">Contacto</a></li>
-            <li>
-                <select id="menuDropdown">
-                    <option value="#" selected>Selecciona una opción</option>
-                    <option value="#Estudios">Estudios</option>
-                    <option value="#SobreMi">Sobre Mí</option>
-                    <option value="#contacto">Contacto</option>
-                </select>
-            </li>
-        </ul>
-    </nav>
-    
+    <video src="forrest.wma"autoplay muted
+        ></video>    
+<header>
+        <nav>
+            <ul>
+                <li>
+                    <input type="text" id="search" placeholder="Buscar...">
+                    <button id="searchButton">Buscar</button>
+                </li>
+                <li>
+                    <select id="menuDropdown">
+                        <option value="#" selected>Selecciona una opción</option>
+                        <option value="#Estudios">Estudios</option>
+                        <option value="#SobreMi">Sobre Mí</option>
+                        <option value="#contacto">Contacto</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
     </header>   
     <div class="rainbow-text" id="Estudios">Estudios</div>
-    <p>Poseo certificados en int a la IA, inglés en programación nivel 1, título en operador en administración y gestión, marketing, ADM, Recursos Humanos, Reparación e instalación de PC, programación Fronted.</p>
-    <div class="rainbow-text" id="Sobre Mi">Sobre Mí</div>
-    <p>Mi Nombre es Lucas,estoy estudiando y capacitandome para ser programador full stack, tengo 20 años, resido en Belen de Escobar.</p>
+    <p>Poseo certificados en int a la IA, inglés en programación nivel 1, título en operador en administración y gestión, marketing, ADM, Recursos Humanos, Reparación e instalación de PC, programación Frontend.</p>
+    <div class="rainbow-text" id="SobreMi">Sobre Mí</div>
+    <p>Mi Nombre es Lucas, estoy estudiando y capacitándome para ser programador full stack, tengo 20 años, resido en Belén de Escobar.</p>
     <p>&#128523;&#128526;</p>
     <section>
         <h6>
-        <img 
-        width="80"
-        height="80"
-        src="Imagen de WhatsApp 2023-09-09 a las 08.17.31.jpg"
-        />
+            <img width="80" height="80" src="Imagen de WhatsApp 2023-09-09 a las 08.17.31.jpg" />
         </h6>
     </section>
     <div class="rainbow-text" id="Contacto">Contacto</div>
-    <p>Telefono: 3484359347 / Gmail:Lucastrevisan0220@gmail.com</p>
+    <p>Teléfono: 3484359347 / Gmail:Lucastrevisan0220@gmail.com</p>
     <footer>16/9/2023-LucasTr</footer>
+
+    <script>
+        // Script para buscar datos
+        document.getElementById("searchButton").addEventListener("click", function () {
+            var searchText = document.getElementById("search").value;
+            alert("Has buscado: " + searchText);
+            // Aquí puedes realizar acciones adicionales, como redireccionar a una página de resultados o mostrar los resultados en la misma página.
+        });
+    </script>
 </body>
 </html>
