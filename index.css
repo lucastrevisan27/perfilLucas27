@@ -3,15 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 video{
     object-fit: cover;
 }
-
 section{
     background:#000000 ;
 }
-
 h1{
     position: absolute;
     top: 50%;
@@ -30,7 +27,6 @@ h1 span{
     animation: animate 1s  ease-in-out;
 
 }
-
 @keyframes animate{
     0%{
         opacity: 0%;
